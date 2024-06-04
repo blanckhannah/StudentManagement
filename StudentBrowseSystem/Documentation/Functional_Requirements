@@ -1,0 +1,48 @@
+- As an unauthenticated user:
+    - I can view all teachers
+    - I can search teachers by their last name
+
+
+- As an authenticated user:
+    - I can view all students
+    - I can search students by their ID
+    - I can search students by their last name
+    - I can search students by their teachers
+
+    - I can search teachers by their ID
+
+    - I can view all parents
+    - I can search parents by their ID
+    - I can search parents by their last name
+
+    - I can view all attendance records
+    - I can search attendance records by ID
+    - I can search attendance records by students' IDs
+    - I can search attendance records by students' names
+
+    - I can view all referrals
+    - I can search referrals by ID
+    - I can search referrals by students' IDs
+    - I can search referrals by students' names
+    - I can write referrals
+
+
+- As an ADMIN
+    - I can add students
+    - I can update student information
+    - I can remove students
+
+    - I can add teachers
+    - I can update teacher information
+    - I can remove teachers
+
+    - I can add parents
+    - I can update parent information
+    - I can delete parents
+
+    - I can create attendance records
+    - I can update attendance records
+    - I can delete attendance records
+
+    - I can update referrals
+    - I can delete referrals
